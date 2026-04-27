@@ -1,5 +1,5 @@
 """
-WSGI config for RoleBasedAccess project.
+WSGI config for role_base_access project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'RoleBasedAccess.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'role_base_access.settings')
 
 application = get_wsgi_application()
